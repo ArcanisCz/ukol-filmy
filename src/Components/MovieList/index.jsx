@@ -14,7 +14,7 @@ const MovieList = (props) => {
           rating={film.rating}
           director={film.director}
           genre={film.genre}
-          cast={film.name + film.as}
+          cast={film.cast}
         />
       ))}
     </>

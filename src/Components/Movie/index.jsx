@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Actor from '../Actor';
+
 const Movie = (props) => {
   return (
     <>
@@ -9,7 +11,11 @@ const Movie = (props) => {
       <p>{props.rating}</p>
       <p>{props.director}</p>
       <p>{props.genre}</p>
-      <p>{props.cast}</p>
+      <>
+        {props.cast.map((herec) => (
+          <Actor key={herec.name} as={herec.as} />
+        ))}
+      </>
     </>
   );
 };
