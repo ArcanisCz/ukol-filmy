@@ -3,17 +3,15 @@ import { render } from 'react-dom';
 import './style.css';
 
 import Header from './Header/index';
-
-import './movies.js';
-
+import Movie from './Movie';
 import MovieList from './MovieList';
-import Movie from './Movie/index';
 
+import movies from './movies.js';
 
 const App = () => (
   <>
     <Header />
-    </>
+    <MovieList films={movies} />
   </>
 );
 

@@ -1,11 +1,13 @@
 import React from 'react';
 
-const MovieList = ({ movies }) => (
-  <>
-    <p>
-      {movies.map((film) => (
-        <movies
-          key={film.title}
+import Movie from '../Movie';
+
+const MovieList = (props) => {
+  return (
+    <div className="movieList">
+      {props.films.map((film) => (
+        <Movie
+          title={film.title}
           poster={film.poster}
           year={film.year}
           rating={film.rating}
@@ -14,8 +16,8 @@ const MovieList = ({ movies }) => (
           cast={film.cast}
         />
       ))}
-    </p>
-  </>
-);
+    </div>
+  );
+};
 
 export default MovieList;

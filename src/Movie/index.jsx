@@ -1,17 +1,16 @@
 import React from 'react';
 
-const Movie = ({ title, poster, year, rating, director, genre, cast }) => {
+const Movie = (props) => {
   return (
     <>
-      <h2>{title}</h2>
-      <p>{poster}</p>
-      <p>{year}</p>
-      <p>{rating}</p>
-      <p>{director}</p>
-      <p>{genre}</p>
+      <h2>{props.title}</h2>
+      <p>{props.poster}</p>
+      <p>{props.year}</p>
+      <p>{props.rating}</p>
+      <p>{props.director}</p>
+      <p>{props.genre}</p>
       <p>
-        {cast.name}
-        {cast.as}
+        {props.cast} {cast.name} {cast.as}
       </p>
     </>
   );
