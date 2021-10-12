@@ -14,3 +14,34 @@ html {
   height: 1em;
   margin-right: 0.3em;
 }
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.film {
+  border: 1px solid black;
+  display: flex;
+  padding: 10px;
+  width: 300px;
+}
+
+.film-img img {
+  width: 100px;
+}
+
+.film-content {
+  margin-left: 5px;
+}
+
+.film-content h1 {
+  color: red;
+}
+
+.rating {
+  background-color: tomato;
+  border-radius: 50%;
+  display: inline;
+  padding: 5px;
+}
