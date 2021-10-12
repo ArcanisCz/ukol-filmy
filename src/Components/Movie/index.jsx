@@ -9,9 +9,7 @@ const Movie = (props) => {
       <p>{props.rating}</p>
       <p>{props.director}</p>
       <p>{props.genre}</p>
-      <p>
-        {props.cast} {cast.name} {cast.as}
-      </p>
+      <p>{props.cast}</p>
     </>
   );
 };

@@ -2,9 +2,9 @@ import React from 'react';
 import { render } from 'react-dom';
 import './style.css';
 
-import Header from './Header/index';
-import Movie from './Movie';
-import MovieList from './MovieList';
+import Header from './Components/Header/index';
+
+import MovieList from './Components/MovieList';
 
 import movies from './movies.js';
 
