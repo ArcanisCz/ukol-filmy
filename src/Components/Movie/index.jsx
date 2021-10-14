@@ -35,7 +35,7 @@ const Movie = (props) => {
 
         <>
           {props.actors.map((herec) => (
-            <Actor name={herec.name} as={herec.as} />
+            <Actor key={herec.name} name={herec.name} as={herec.as} />
           ))}
         </>
       </div>
