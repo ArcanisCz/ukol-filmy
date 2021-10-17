@@ -16,6 +16,8 @@ const Movie = (props) => {
       <div className="title">
         <h3>{props.title}</h3>
 
+        <br />
+
         <p>
           <b className="year">Rok vydání: </b>
           {props.year}
@@ -30,6 +32,8 @@ const Movie = (props) => {
           <b>Žánr: </b>
           {props.genre}
         </p>
+
+        <br />
 
         <div className="role">V hlavních rolích:</div>
 

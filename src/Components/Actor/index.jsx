@@ -5,8 +5,10 @@ import './style.css';
 const Actor = (props) => {
   return (
     <>
-      <div className="name"> {props.name} </div>
-      <div className="as"> as {props.as} </div>
+      <div className="actorTable">
+        <div className="name"> {props.name} </div>
+        <div className="as"> as {props.as} </div>
+      </div>
     </>
   );
 };
