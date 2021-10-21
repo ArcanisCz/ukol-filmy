@@ -1,0 +1,66 @@
+.table {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  grid-template-rows: 250px;
+  gap: 0px;
+  border: 1px solid lightgrey;
+  background-color: white;
+  grid-template-areas: 'overlap';
+}
+
+.poster {
+  column-span: 1;
+  width: 100%;
+  grid-area: overlap;
+}
+
+.img {
+  width: 160px;
+  height: 220px;
+  margin: 10px;
+}
+
+.rating {
+  background-color: orange;
+  text-align: center;
+  grid-area: overlap;
+  height: 25px;
+  width: 60px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+  transform: rotate(-35deg);
+  justify-self: auto;
+}
+
+.title {
+  column-span: 1;
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 0.5px;
+  color: red;
+  font-weight: bold;
+}
+
+.role {
+  color: red;
+  font-weight: bold;
+  font-size: 9px;
+  margin: 0px;
+}
+
+.year {
+  font-size: 9px;
+}
+
+p {
+  font-size: 9px;
+  margin: 0px;
+  color: black;
+  font-weight: lighter;
+}
