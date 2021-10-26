@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+.logo {
+    display: inline-block;
+    width: auto;
+    height: 1em;
+    margin-right: 0.3em;
+  }
+
+h1 {
+    text-align: center;
+}
