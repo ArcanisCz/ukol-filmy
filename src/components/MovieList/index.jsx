@@ -13,6 +13,7 @@ const MovieList = ({movies}) => (
                 rating={movie.rating} 
                 director={movie.director} 
                 genre={movie.genre}
+                cast={movie.cast}
             />
         )}
     </div>

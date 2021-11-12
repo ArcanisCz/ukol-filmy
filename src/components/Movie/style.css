@@ -4,6 +4,8 @@
     display: flex;
     padding: 1rem;
     gap: 1rem;
+    position: relative;
+    overflow: hidden;
 }
 
 .poster {
@@ -21,8 +23,35 @@
  }
 
  .title {
-     color: #f54bbc;
+     color: #f65d5f;
      margin-bottom: 0.8rem;
      font-weight: bold;
      font-size: 1.3rem;
  }
+ 
+ .rating {
+     background-color: #ff9e43;
+     position: absolute;
+     left: -2.5rem;
+     top: -1rem;
+     display: block;
+     transform: rotate(-40deg);
+     padding: 0.1rem;
+     padding-left: 3rem;
+     width: 14rem;
+     color: white;
+ }
+
+ .actorsHeading {
+    color: #f65d5f;
+    font-weight: bold;
+    margin-top: 1rem;
+ }
+
+ .actorsList{
+    display: grid;
+    column-gap: 0.5rem;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: -0.6rem;
+ }
+
