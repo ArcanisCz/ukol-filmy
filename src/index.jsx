@@ -1,16 +1,17 @@
-import React from 'react';
-import { render } from 'react-dom';
-import './style.css';
+import React from "react";
+import { render } from "react-dom";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import MovieList from "./components/MovieList/MovieList";
 
-import camera from './img/camera.svg';
+import movies from "./movies";
 
 const App = () => (
   <>
-    <h1>
-      <img class="logo" src={camera} alt="Logo" />
-      V našem kině právě uvádíme
-    </h1>
+    <Header title="Welcome to the Cinema City" />
+    <MovieList movies={movies} title="What's on" />
+    <Footer text="Copyright © 2022 Cinema City" />
   </>
 );
 
-render(<App />, document.querySelector('#app'));
+render(<App />, document.querySelector("#app"));

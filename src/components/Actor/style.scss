@@ -1,0 +1,8 @@
+.actor {
+  color: grey;
+  &__name {
+    display: block;
+    font-weight: bold;
+    color: $colorBrown;
+  }
+}

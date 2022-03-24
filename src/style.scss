@@ -1,0 +1,47 @@
+/* Global styles */
+
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700&family=Rammetto+One&display=swap");
+$colorBlue: #016fb9;
+$colorOrange: #ff9505;
+$colorBrown: #353531;
+$colorRed: #ec4e20;
+$colorGreen: #32cd32;
+$colorWhite: #ffffff;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Alegreya Sans", sans;
+  font-size: 16px;
+  color: $colorWhite;
+}
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1900px;
+}
+
+h1 {
+  font-size: 38px;
+  letter-spacing: 0.1em;
+  font-family: "Rammetto One", cursive;
+}
+h2 {
+  font-size: 32px;
+  letter-spacing: 0.1em;
+  font-family: "Rammetto One", cursive;
+}
+h3 {
+  font-size: 27px;
+}

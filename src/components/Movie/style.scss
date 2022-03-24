@@ -1,0 +1,61 @@
+.movie-card {
+  position: relative;
+  overflow: hidden;
+  background-color: $colorWhite;
+  color: $colorBrown;
+  padding: 10px;
+  &__img {
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center;
+    img {
+      max-width: 200px;
+      height: auto;
+    }
+  }
+  &__content {
+    text-align: left;
+  }
+  &__title {
+    margin-bottom: 10px;
+    color: $colorRed;
+    text-align: center;
+  }
+  &__rating {
+    position: absolute;
+    top: 12px;
+    right: -50px;
+    background-color: $colorOrange;
+    color: $colorWhite;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 60px;
+    transform: rotate(38deg);
+  }
+  &__list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  p {
+    margin-bottom: 5px;
+  }
+
+  // VARIANTs
+  &__rating--highlight {
+    background-color: $colorGreen;
+  }
+
+  // MQ
+  @media (min-width: 748px) {
+    display: flex;
+    &__img {
+      flex: 0 0 200px;
+      margin-bottom: 0;
+    }
+    &__content {
+      padding: 0 20px;
+    }
+  }
+}
