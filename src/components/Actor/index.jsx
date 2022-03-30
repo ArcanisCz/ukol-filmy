@@ -12,3 +12,15 @@ const Actor = ({ name, as }) => {
 };
 
 export default Actor;
+
+
+  /** !!! 
+    pokud dám export nakonce, tak pak píšu inport bez chlupatých závorek
+              export default Actor;
+              import Actor from "" ../../
+
+    pokud napíšu export ke constantě tak pak importuji pomocí chlupatých závorek
+              export const Actor = ({kjbvalbnvadl}) => 
+              import {Actor} from "../../"
+ 
+   */

@@ -16,6 +16,17 @@ const Movie = ({ title, poster, year, rating, director, genre, cast }) => {
         <div className="movie_cast">
           {cast.map(({ name, as }, i) => (
             <Actor key={i} name={name} as={as} />
+                  // toto jsi můžu napsat buď takto (že jsi to vypíšu do závorek a už to tam pak dávám bez tečky) nebo jsi to vypíšu způsobem jak je napsáno v MovieListu
+
+                  /* 
+                  {cast.map((actor) => (    // tady pozor pokud tam dám {} tak tam musím dát return!
+                    <Actor
+                      key={actor.i}
+                      name={actor.name}
+                      as={actor.as}
+                    />
+                  ))}
+                  */
           ))}
         </div>
       </div>
