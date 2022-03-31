@@ -4,7 +4,7 @@ import camera from './camera.svg';
 const Header = () => {
     return (        
     <h1>
-        <img class="logo" src={camera} alt="Logo" />
+        <img className="logo" src={camera} alt="Logo" />
         V našem kině právě uvádíme
     </h1>  
     )

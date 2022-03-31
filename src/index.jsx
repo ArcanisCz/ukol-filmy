@@ -11,7 +11,9 @@ const App = () => (
   <>
     <Header />
 
-    {movies.map((movie) => <Movie title={movie.title} 
+    {movies.map((movie) => <Movie 
+    key={movie.id}
+    title={movie.title} 
     poster={movie.poster}
     year={movie.year}
     rating={movie.rating}
