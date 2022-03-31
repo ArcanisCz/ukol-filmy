@@ -7,7 +7,7 @@ const Movie = ({title, poster, year, rating, director, genre, cast}) => {
         <p className='year'>Rok: {year}</p>
         <p className='rating'>Hodnocení: {rating}</p>
         <p className='director'>Režisér: {director}</p>
-        <p>{genre}</p>
+        <p className='genre'>Žánr: {genre}</p>
         </>
     )
 }

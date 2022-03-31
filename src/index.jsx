@@ -18,6 +18,7 @@ const App = () => (
     year={movie.year}
     rating={movie.rating}
     director={movie.director}
+    genre={movie.genre}
     />)}
       </>
 );
