@@ -4,14 +4,17 @@ h3 {
     margin: 15px 0px;
 }
 
-h2 {font-size: 1.5em;}
+h2 {
+    font-size: 1.5em;
+    margin-top: 0px;
+}
+
 h3 {font-size: 1em;}
 
 p {margin: 5px;}
 
 .movie {
     display: flex;
-    max-width: 400px;
     background-color: white;
 }
 
@@ -21,9 +24,13 @@ p {margin: 5px;}
     
 }
 
-.movie__description {
+.movie__detail {
     flex: 0 1 calc((100% / 3)*2);
     margin: 30px 30px 30px 0;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .poster {

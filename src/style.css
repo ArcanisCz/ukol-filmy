@@ -9,12 +9,12 @@ html {
 }
 
 body {
-  background-color: lightgrey;
+  background-color: #E2E3E0;
   font-size: 0.9em;
 }
 
 .container {
   display: grid;
   gap: 5px;
-  grid-template-columns: repeat(auto-fit, 400px);
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }

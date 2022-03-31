@@ -3,32 +3,15 @@ import { render } from 'react-dom';
 import './style.css';
 
 import Header from "./components/Header";
-import Movie from "./components/Movie";
-//import MovieList from "./components/MovieList";
+import MovieList from "./components/MovieList";
 
 import movies from './movies.js';
 
 
 const App = () => (
   <>
-    <Header />
-    
-    <div className="container">
-      {movies.map(
-          (movie) => {
-              return <Movie 
-                  key={movie.id}
-                  title={movie.title}
-                  poster={movie.poster}
-                  year={movie.year}
-                  rating={movie.rating}
-                  director={movie.director}
-                  genre={movie.genre}
-              />
-          }
-      )}      
-    </div>
-
+    <Header text="V našem kině právě uvádíme"/>
+    <MovieList movies={movies}/>
   </>
 );
 
