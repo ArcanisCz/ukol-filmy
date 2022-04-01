@@ -6,7 +6,8 @@ import "./style.css";
 const Movie = ({ title, poster, year, rating, director, genre, cast }) => {
   return (
     <div className="movies">
-      <div className="movie_poster">{poster}</div>¨
+      < img src= {`/assets/${poster}`} alt={title} />
+      
       <div className="description">
         <div className="movie_title">{title}</div>
         <div className="movie_year">{year}</div>
