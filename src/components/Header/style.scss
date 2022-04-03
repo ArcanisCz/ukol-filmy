@@ -1,0 +1,23 @@
+.header {
+  background: rgb(1, 111, 185);
+  background: linear-gradient(
+    0deg,
+    rgba(1, 111, 185, 1) 0%,
+    rgba(0, 0, 0, 1) 80%
+  );
+  color: $colorWhite;
+  padding: 25px 0;
+  text-align: center;
+
+  // MQ
+  @media (min-width: 748px) {
+    &__inner {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &__logo {
+      margin-right: 20px;
+    }
+  }
+}
