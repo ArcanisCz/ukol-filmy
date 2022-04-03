@@ -1,0 +1,59 @@
+.movie__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid rgb(73, 55, 55);
+    border-radius: 5%;
+
+    box-shadow: grey 0px 4px 6px;
+    align-self: center;
+    background-color: rgb(250, 247, 233);
+}
+
+.movie__title {
+    color: red;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.movie__roles {
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+    text-align: left;
+}
+
+.actors {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.movie {
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.movie__rating,
+.movie__year,
+.movie__genre,
+.movie__director {
+    font-size: 22px;
+}
+
+
+.picture__container {
+    text-align: center;
+}
+
+.movie__poster {
+    border-radius: 5px;
+    border: 5px solid rgb(216, 168, 168);
+}
+
+.actors {
+    font-size: larger;
+    text-align: justify;
+}

@@ -1,0 +1,10 @@
+.actor__name {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.actors {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}

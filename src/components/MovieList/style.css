@@ -1,0 +1,21 @@
+.container__movieList {
+    margin: 0 auto;
+    max-width: fit-content;
+
+}
+
+@media only screen and (min-width: 840px) {
+    .container__movieList {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+}
+
+@media only screen and (min-width: 1040px) {
+    .container__movieList {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+}
