@@ -1,0 +1,16 @@
+.movie{
+    display: grid;
+    grid-template-areas: 
+    "head head"
+    "image details"
+}
+.grid-header{
+    text-align: center;
+    grid-area: head;
+}
+.left-column{
+    grid-area: image;
+}
+.right-column{
+    grid-area: details;
+}
