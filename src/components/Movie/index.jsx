@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Movie = ({title, poster, year, rating, director, genre, cast}) => {
+    console.log(title);
     return(<>
         <h2 className='movie-title'>{title}</h2>
         <img className='poster' src={`/assets/${poster}`} />
