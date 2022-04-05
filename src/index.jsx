@@ -9,8 +9,8 @@ import movies from './movies';
 
 const App = () => (
   <>
-    <Header />
-
+    <Header title="V našem kině právě uvádíme" />
+    <div>
     {movies.map((movie) => <Movie 
     key={movie.id}
     title={movie.title} 
@@ -20,6 +20,7 @@ const App = () => (
     director={movie.director}
     genre={movie.genre}
     />)}
+    </div>
       </>
 );
 
