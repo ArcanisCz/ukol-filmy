@@ -1,3 +1,8 @@
+ # EDIT: Řešení domácího úkolu Filmy
+ nastylováno jen pro velkou obrazovku, u mně to vypadá takto:
+ ![image](https://user-images.githubusercontent.com/44638698/141525967-6bffa450-ac3f-4251-80a7-a76373a06db2.png)
+
+
 # Domácí úkol: Filmy
 
 Za úkol máš vytvořit stránku, která bude zobrazovat nabídku filmů v místním kině.
