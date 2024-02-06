@@ -1,0 +1,64 @@
+.filmy {
+    display: inline-flex;
+    position: relative;
+    width: 28rem;
+    background: white;
+    margin: 0 0.2rem 0.2rem 0;
+    padding: 0.8rem;
+}
+
+.meno {
+    color: red;
+    font-size: large;
+    display: inline;
+    margin: 0 1rem;
+}
+
+img {
+    max-width: 7rem;
+}
+
+.hodnotenie {
+    background: orange;
+    color: white;
+    display: inline;
+    width: 5rem;
+    font-size: small;
+    height: 1.1rem;
+    text-align: center;
+    position: absolute;
+    left: -0.6rem;
+    transform: rotate(-45deg);
+    border-top-right-radius: 99px;
+    border-top-left-radius: 99px;
+}
+
+.rok-rezia-zaner {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.75rem;
+    margin: auto;
+    position: absolute;
+    top: 3rem;
+    left: 9rem;
+}
+
+.obsadenie {
+    position: absolute;
+    top: 6.5rem;
+    left: 9rem;
+    color: red;
+    font-size: small;
+}
+
+.role {
+    padding: 0;
+    margin-bottom: 0.2rem;
+    margin-top: 0.15rem;
+}
+
+.herci {
+    margin-top: 0.2rem;
+    font-size: 0.65rem;
+    color: black;
+}
